@@ -1,0 +1,83 @@
+body{
+    background: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.menu{
+    background: antiquewhite;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+}
+
+.menu a{
+    font: menu;
+    font-size: 20px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 16px 24px;
+}
+
+.menu a:hover{
+    background: grey;
+    color: ivory;
+}
+
+.row{
+    background-color: white;
+}
+.col{
+    float: left;
+    width: 42%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.text{
+    background-color: lightgray;
+    border-radius: 7px;
+    padding:7px;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+img{
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 2%;
+    padding-bottom: 2%px;
+}
+
+.project_head{
+    text-align: center;
+    padding-top: 7%;
+    font-size: x-large;
+}
+
+.gitlink{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: grey;
+}
+
+footer{
+    text-align: center;
+    margin: 5%;
+}
